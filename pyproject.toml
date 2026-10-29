@@ -1,0 +1,10 @@
+[project]
+name = "llm-de"
+version = "1.0.0"
+description = "Standard DE and LLM-guided DE (LLMDE) sharing one kernel, with a unified objective interface"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.0",
+    "torch>=2.5",
+]
